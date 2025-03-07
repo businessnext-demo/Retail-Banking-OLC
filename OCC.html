@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <!-- Primary Meta Tags -->
-    <title>BUSINESSNEXT | Apply for New Age Banking Today!</title>
-    <meta name="title" content="BUSINESSNEXT | Apply for New Age Banking Today!">
+    <title>BUSINESSNEXT | We're here to support you!</title>
+    <meta name="title" content="BUSINESSNEXT | We're here to support you!">
     <meta name="keywords" content="Request a call back for Modern Banking Services">
     <meta name="description" content="One stop solution for all your Banking needs">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -15,14 +15,14 @@
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="#">
-    <meta property="og:title" content="BUSINESSNEXT | Apply for New Age Banking Today!">
+    <meta property="og:title" content="BUSINESSNEXT | We're here to support you!">
     <meta property="og:description" content="Request a call back for Modern Banking Services">
     <meta property="og:image" content="images/logo-white.jpg">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="#">
-    <meta property="twitter:title" content="BUSINESSNEXT | Apply for New Age Banking Today!">
+    <meta property="twitter:title" content="BUSINESSNEXT | We're here to support you">
     <meta property="twitter:description" content="Request a call back for Modern Banking Services">
     <meta property="twitter:image" content="https://www.businessnext.com/assets/images/banner/security-disclosure-banner.jpg">
 
@@ -37,7 +37,7 @@
       "@type": "WebPage",
       "@id": "https://businessnext-demo.github.io/Retail-Banking-OLC/"
     },
-    "headline": "BUSINESSNEXT | Apply for New Age Banking Today!",
+    "headline": "BUSINESSNEXT | We're here to support you!",
     "description": "Request a call back for Modern Banking Services",
     "image": {
       "@type": "ImageObject",
@@ -321,11 +321,11 @@
       <div class="bs-banner typ-request">
         <div class="banner-info">
           <h2 class="banner-title">
-            <span class="highlight" data-aos="fade-up" data-aos-offset="20" data-aos-delay="200" data-aos-duration="800">Experience</span>
+            <span class="highlight" data-aos="fade-up" data-aos-offset="20" data-aos-delay="200" data-aos-duration="800">Relax</span>
           </h2>
           <ul class="banner-info-list typ-2">
             <li data-aos="fade-up" data-aos-offset="20" data-aos-delay="300" data-aos-duration="800">
-              Modern Banking at your Finger tips
+              We're here to Support you!
             </li>
           </ul>
           <p class="banner-note" data-aos="fade-up" data-aos-offset="20" data-aos-delay="600" data-aos-duration="800">
@@ -348,10 +348,10 @@
             Seamless banking, anytime, anywhere—because your time matters.</p>
         </div>
         <div class="bs-request-form">
-          <form class="bs-form" id="OnLineLeadForm" method="post" action="https://presales.businessbywire.com/appgold8demo/ProcessAnonymous/OnlineLeadCapture?x=25xgkuqlsapsn67x4pygd2jkry2fuyxjax3jr3539b29ks7nnczcchws4mrra2l556u2jrfj7rjatatrsuq2neq6x4wtjkflpmx94qmpzccr7mzlradq">
+          <form class="bs-form" id="OnLineCaseForm" method="post" action="https://presales.businessbywire.com/appgold8demo/ProcessAnonymous/OnlineLeadCapture?x=s2rsuht9cnx3lyqqcnda6spl7nfts3p9lhyf6ndqrhcsb2cjb9b5rmy93v9xtfpcrkmu9ldn3gya5pzca7nruazqtkk4d3grt3wxw6hvqxqydwwzw9ga">
             <div class="form-head">
               <h3 class="form-title">
-                Apply Now!
+                File a Service Request or Complaint!
               </h3>
             </div>
             <input type="hidden" name="debug" value="1">
@@ -359,6 +359,7 @@
             <input type="hidden" name="SuccessReturnURL" value="https://www.businessnext.com/thankyou">
             <input type="hidden" name="FailureReturnURL" value="https://www.businessnext.com/error">
             <input id="Product" name="ProductName" type="hidden" class="field" value="9">
+			<!--<input type="text" id="Territory" name="Territory" style="width:100px" value="9" />-->
             <ul class="form-body">
               <li class="item">
                 <div class="form-group">
@@ -386,18 +387,9 @@
                   <label class="label">Last Name*</label>
                 </div>
               </li>
-			  <li class="item">
-                <div class="form-group">
-                  <select  class="form-control" id="Company" name="Company">
+                  <select  class="form-control" id="Company" name="Company" style="display: none;">
                                 <option value="Private">Private</option>
-                                <option value="Government">Government</option>
-                                <option value="Semi-Goverment">Semi-Goverment</option>
-                                <option value="Unemployed">Unemployed</option>
-                                <option value="Self-employed">Self-employed</option>
                             </select>
-                  <label class="label" for="Company">Profession Type</label>
-                </div>
-              </li>
               <li class="item">
                 <div class="form-group">
                   <input type="email" class="form-control" id="Email" name="Email" value="" placeholder=" ">
@@ -432,20 +424,50 @@
                   <label class="label">Mobile*</label>
                 </div>
               </li>
-              <li class="item">
-                <div class="form-group">
                   <select id="StatusCode" name="StatusCode" style="display: none;">
-                                <option value="100003">New</option>
+                                <option value="1">New</option>
+				  </select>
+			  <li class="item">
+                <div class="form-group">
+                  <select id="CasePriority" name="CasePriority" style="display: none;">
+                                <option value="2">High</option>
 				  </select>
                 </div>
               </li>
-			  <li class="item">
+			  <li class="item col-1">
                 <div class="form-group">
-                  <select id="Layout" name="Layout" style="display: none;">
-								<option value="102737">Individual Lead</option>
+                  <select class="form-control" id="CaseType" name="CaseType">
+                        <option value="1">Query</option>
+                        <option value="2">Request</option>
+                        <option value="3">Complaint</option>
                   </select>
+                  <label class="label" for="Product">Select Service Type</label>
                 </div>
               </li>
+                  <select id="CaseSolutionCategory" name="CaseSolutionCategory" style="display: none;">
+                        <option value="8">Complaint</option>
+                  </select>
+			  <li class="item col-1">
+                <div class="form-group">
+					<input type="text" class="form-control" id="Subject" name="Subject" maxlength="50" value="" placeholder=" ">
+					<label class="label">Complaint/Request Subject</label>
+				</div>
+			</li>
+			<li class="item col-1">
+                <div class="form-group">
+					<input type="textarea" class="form-control" id="Detail" name="Detail" maxlength="500" value="" placeholder=" ">
+					<label class="label">Complaint/Request Details</label>
+				</div>
+                  <select id="CaseOrigin" name="CaseOrigin" style="display: none;">
+                                <option value="2">Web Form</option>
+				  </select>
+                  <select id="CaseReason" name="CaseReason" style="display: none;">
+                         <option value="1">New Problem</option>
+				  </select>
+                  <select id="Layout" name="Layout" style="display: none;">
+								<option value="102794">Customer Servicing</option>
+                  </select>
+			</li>
             </ul>
             <div class="form-action">
               <button type="submit" name="submit" id="submit" class="btn btn-default" onclick="return IsValidForm();">
@@ -702,7 +724,7 @@
                 <a class="title" href="#">AI guidance</a>
                 <a class="title js-menu-item" data-menu-item="contact" href="#">Contact Us</a>
                 <!-- <a class="title" href="#">Site map</a> -->
-                <a class="title" href="OCC.html" target="_blank">File a Complaint</a>
+                <a class="title" href="#" target="_blank">File a Complaint</a>
                 <a class="title" href="#">Privacy</a>
                 <a class="title" href="#">Responsible <span class="cm-line-break">Disclosure Policy</span></a>
                 <a class="title" href="#">Trust Center</a>
